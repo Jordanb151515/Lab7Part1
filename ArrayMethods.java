@@ -57,9 +57,10 @@ public class ArrayMethods{
         int max = myArray[0];
         int index = 0;
         for(int i=1; i<myArray.length; i++){
-            if(myArray[i]>max)
+            if(myArray[i]>max){
                 max = myArray[i];
                 index = i;
+            }
         }
         return index;
     }
