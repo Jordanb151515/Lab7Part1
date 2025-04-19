@@ -17,16 +17,14 @@ public class ArrayMethodsDemo //change name to Main and rename file to Main.java
         System.out.printf("The avg of all elements in myArray[] is: %.2f\n", test.average());
         System.out.println("The largest number in myArray[] is: " + test.findMax());
         System.out.println("The index of the largest number in myArray[] is: " + test.findIndexOfMax());
-        // System.out.println("The last (or right most) index of 8 is: " +
-            // test.findLast(8));
-        // System.out.println("The last (or right most) index of 2 is: " +
-            // test.findLast(2));
-        // int[] findAll8s = test.findAll(8);
-        // System.out.print("8s were located in the following indices ");
-        // test.print(findAll8s);
-        // int[] copyOfMyArray = test.copyArray();
-        // System.out.println("myArray[] and copyOfMyArray[] are equal: " +
-            // Arrays.equals(test.getArray(),copyOfMyArray));
+        System.out.println("The last (or right most) index of 8 is: " + test.findLast(8));
+        System.out.println("The last (or right most) index of 2 is: " + test.findLast(2));
+        int[] findAll8s = test.findAll(8);
+        System.out.print("8s were located in the following indices ");
+        test.print(findAll8s);
+        int[] copyOfMyArray = test.copyArray();
+        System.out.println("myArray[] and copyOfMyArray[] are equal: " +
+        Arrays.equals(test.getArray(),copyOfMyArray));
         // //Part 2
         // System.out.println("\n\nLab7 Pt2 - Let's continue to rumble :-)");
         // System.out.println("=======================================");
